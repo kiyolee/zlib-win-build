@@ -1,4 +1,13 @@
-build*/libz/Release
-build*/libz/Debug
-build*/libz/x64/Release
-build*/libz/x64/Debug
+*.VC.db
+*.log
+*.opensdf
+*.sdf
+*~
+build-*/*/Debug
+build-*/*/Release
+build-*/*/x64/Debug
+build-*/*/x64/Release
+build-*/Debug
+build-*/Release
+build-*/x64/Debug
+build-*/x64/Release
