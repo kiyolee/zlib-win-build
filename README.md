@@ -2,7 +2,7 @@
 
 zlib Windows build with Visual Studio.
 
-Current version is zlib-1.2.8.
+This version is zlib-1.2.8.
 
 See info-win-build for general information about the
 win-build effort.
