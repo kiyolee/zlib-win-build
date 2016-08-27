@@ -4,7 +4,7 @@ zlib Windows build with Visual Studio.
 
 This version is zlib-1.2.8.
 
-See info-win-build for general information about the
+See win-build-info for general information about the
 win-build effort.
 
 To build, simply open the required solution file, and
