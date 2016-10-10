@@ -511,7 +511,7 @@
 							>
 							<Tool
 								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
+								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
 								Outputs="$(IntDir)\$(InputName).obj"
 							/>
 						</FileConfiguration>
@@ -521,7 +521,7 @@
 							>
 							<Tool
 								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
+								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
 								Outputs="$(IntDir)\$(InputName).obj"
 							/>
 						</FileConfiguration>
@@ -530,7 +530,7 @@
 							>
 							<Tool
 								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
+								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
 								Outputs="$(IntDir)\$(InputName).obj"
 							/>
 						</FileConfiguration>
@@ -540,7 +540,7 @@
 							>
 							<Tool
 								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
+								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
 								Outputs="$(IntDir)\$(InputName).obj"
 							/>
 						</FileConfiguration>
@@ -553,7 +553,7 @@
 							>
 							<Tool
 								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
+								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
 								Outputs="$(IntDir)\$(InputName).obj"
 							/>
 						</FileConfiguration>
@@ -563,7 +563,7 @@
 							>
 							<Tool
 								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
+								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
 								Outputs="$(IntDir)\$(InputName).obj"
 							/>
 						</FileConfiguration>
@@ -572,7 +572,7 @@
 							>
 							<Tool
 								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
+								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
 								Outputs="$(IntDir)\$(InputName).obj"
 							/>
 						</FileConfiguration>
@@ -582,7 +582,7 @@
 							>
 							<Tool
 								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
+								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
 								Outputs="$(IntDir)\$(InputName).obj"
 							/>
 						</FileConfiguration>
