@@ -43,7 +43,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				PreprocessorDefinitions="ZLIB_DLL;ASMV;ASMINF;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_DEBUG"
+				PreprocessorDefinitions="ZLIB_DLL;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_DEBUG"
 				StringPooling="true"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -113,7 +113,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				PreprocessorDefinitions="ZLIB_DLL;ASMV;ASMINF;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_DEBUG"
+				PreprocessorDefinitions="ZLIB_DLL;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_DEBUG"
 				StringPooling="true"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -184,7 +184,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				PreprocessorDefinitions="ZLIB_DLL;ASMV;ASMINF;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG"
+				PreprocessorDefinitions="ZLIB_DLL;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG"
 				StringPooling="true"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
@@ -257,7 +257,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				PreprocessorDefinitions="ZLIB_DLL;ASMV;ASMINF;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG"
+				PreprocessorDefinitions="ZLIB_DLL;WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG"
 				StringPooling="true"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
@@ -371,224 +371,6 @@
 				RelativePath="..\..\zutil.c"
 				>
 			</File>
-			<Filter
-				Name="contrib"
-				>
-				<Filter
-					Name="masmx64"
-					>
-					<File
-						RelativePath="..\..\contrib\masmx64\gvmat64.asm"
-						>
-						<FileConfiguration
-							Name="Debug|Win32"
-							ExcludedFromBuild="true"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml64 /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Debug|x64"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml64 /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Release|Win32"
-							ExcludedFromBuild="true"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml64 /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Release|x64"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml64 /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-					</File>
-					<File
-						RelativePath="..\..\contrib\masmx64\inffas8664.c"
-						>
-						<FileConfiguration
-							Name="Debug|Win32"
-							ExcludedFromBuild="true"
-							>
-							<Tool
-								Name="VCCLCompilerTool"
-								AdditionalIncludeDirectories="..\.."
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Debug|x64"
-							>
-							<Tool
-								Name="VCCLCompilerTool"
-								AdditionalIncludeDirectories="..\.."
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Release|Win32"
-							ExcludedFromBuild="true"
-							>
-							<Tool
-								Name="VCCLCompilerTool"
-								AdditionalIncludeDirectories="..\.."
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Release|x64"
-							>
-							<Tool
-								Name="VCCLCompilerTool"
-								AdditionalIncludeDirectories="..\.."
-							/>
-						</FileConfiguration>
-					</File>
-					<File
-						RelativePath="..\..\contrib\masmx64\inffasx64.asm"
-						>
-						<FileConfiguration
-							Name="Debug|Win32"
-							ExcludedFromBuild="true"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml64 /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Debug|x64"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml64 /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Release|Win32"
-							ExcludedFromBuild="true"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml64 /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Release|x64"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml64 /c /Zi /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-					</File>
-				</Filter>
-				<Filter
-					Name="masmx86"
-					>
-					<File
-						RelativePath="..\..\contrib\masmx86\inffas32.asm"
-						>
-						<FileConfiguration
-							Name="Debug|Win32"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Debug|x64"
-							ExcludedFromBuild="true"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Release|Win32"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Release|x64"
-							ExcludedFromBuild="true"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-					</File>
-					<File
-						RelativePath="..\..\contrib\masmx86\match686.asm"
-						>
-						<FileConfiguration
-							Name="Debug|Win32"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Debug|x64"
-							ExcludedFromBuild="true"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Release|Win32"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-						<FileConfiguration
-							Name="Release|x64"
-							ExcludedFromBuild="true"
-							>
-							<Tool
-								Name="VCCustomBuildTool"
-								CommandLine="ml /c /Zi /safeseh /Fo$(IntDir)\$(InputName).obj $(InputPath)"
-								Outputs="$(IntDir)\$(InputName).obj"
-							/>
-						</FileConfiguration>
-					</File>
-				</Filter>
-			</Filter>
 		</Filter>
 		<Filter
 			Name="Header Files"
