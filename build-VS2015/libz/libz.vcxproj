@@ -155,6 +155,9 @@
     <ClInclude Include="..\..\zlib.h" />
     <ClInclude Include="..\..\zutil.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\win32\libz.rc" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
