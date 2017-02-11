@@ -30,7 +30,7 @@ BEGIN
       VALUE "OriginalFilename",	"libz.dll\0"
       VALUE "ProductName",	"zlib\0"
       VALUE "ProductVersion",	ZLIB_VERSION "\0"
-      VALUE "Comments",		"For more information visit http://www.zlib.net/; alternative build from https://github.com/kiyolee/zlib-win-build/\0"
+      VALUE "Comments",		"For more information visit <http://www.zlib.net/>. Alternative build from <https://github.com/kiyolee/zlib-win-build/>.\0"
     END
   END
   BLOCK "VarFileInfo"
