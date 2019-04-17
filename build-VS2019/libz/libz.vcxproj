@@ -21,7 +21,6 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0AC35E47-8DE5-45EA-BEF7-E2A1ACC23E14}</ProjectGuid>
     <RootNamespace>libz</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
