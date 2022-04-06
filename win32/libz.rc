@@ -6,8 +6,8 @@ VS_VERSION_INFO		VERSIONINFO
 #else
 VS_VERSION_INFO		VERSIONINFO	MOVEABLE IMPURE LOADONCALL DISCARDABLE
 #endif
-  FILEVERSION		ZLIB_VER_MAJOR,ZLIB_VER_MINOR,ZLIB_VER_REVISION,0
-  PRODUCTVERSION	ZLIB_VER_MAJOR,ZLIB_VER_MINOR,ZLIB_VER_REVISION,0
+  FILEVERSION		ZLIB_VER_MAJOR,ZLIB_VER_MINOR,ZLIB_VER_REVISION,ZLIB_VER_SUBREVISION
+  PRODUCTVERSION	ZLIB_VER_MAJOR,ZLIB_VER_MINOR,ZLIB_VER_REVISION,ZLIB_VER_SUBREVISION
   FILEFLAGSMASK		VS_FFI_FILEFLAGSMASK
 #ifdef _DEBUG
   FILEFLAGS		1
@@ -30,7 +30,7 @@ BEGIN
       VALUE "OriginalFilename",	"libz.dll\0"
       VALUE "ProductName",	"zlib\0"
       VALUE "ProductVersion",	ZLIB_VERSION "\0"
-      VALUE "Comments",		"For more information visit <http://www.zlib.net/>. Alternative build from <https://github.com/kiyolee/zlib-win-build/>.\0"
+      VALUE "Comments",		"For more information visit http://www.zlib.net/. Alternative build from https://github.com/kiyolee/zlib-win-build/.\0"
     END
   END
   BLOCK "VarFileInfo"
