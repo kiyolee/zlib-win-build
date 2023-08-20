@@ -23,10 +23,10 @@ BEGIN
     BLOCK "040904E4"
     //language ID = U.S. English, char set = Windows, Multilingual
     BEGIN
-      VALUE "FileDescription",	"zlib data compression library\0"
+      VALUE "FileDescription",	"zlib data compression and ZIP file I/O library\0"
       VALUE "FileVersion",	ZLIB_VERSION "\0"
       VALUE "InternalName",	"libz.dll\0"
-      VALUE "LegalCopyright",	"(C) 1995-2022 Jean-loup Gailly & Mark Adler\0"
+      VALUE "LegalCopyright",	"(C) 1995-2023 Jean-loup Gailly & Mark Adler\0"
       VALUE "OriginalFilename",	"libz.dll\0"
       VALUE "ProductName",	"zlib\0"
       VALUE "ProductVersion",	ZLIB_VERSION "\0"
