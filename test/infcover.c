@@ -1,5 +1,5 @@
 /* infcover.c -- test zlib's inflate routines with full code coverage
- * Copyright (C) 2011, 2016 Mark Adler
+ * Copyright (C) 2011, 2016, 2024 Mark Adler
  * For conditions of distribution and use, see copyright notice in zlib.h
  */
 
@@ -454,7 +454,7 @@ local void cover_wrap(void)
 }
 
 /* input and output functions for inflateBack() */
-local unsigned pull(void *desc, unsigned char **buf)
+local unsigned pull(void *desc, unsigned char z_const **buf)
 {
     static unsigned int next = 0;
     static unsigned char dat[] = {0x63, 0, 2, 0};
